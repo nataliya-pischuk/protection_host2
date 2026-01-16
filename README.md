@@ -44,4 +44,4 @@ Fail2Ban во всех случаях не реагировал
 
 ![alt text](img/fail2ban.JPG)
 
-![alt text](img/fail2ban._log.JPG)
+![alt text](img/fail2ban_log.JPG)
