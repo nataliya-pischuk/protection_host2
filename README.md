@@ -65,3 +65,19 @@ hydra -L users.txt -P pass.txt < ip-адрес > ssh
 В качестве ответа пришлите события, которые попали в логи Suricata и Fail2Ban, прокомментируйте результат.
 
 ### Решение 2
+На машине Kali создала два текстовых файлика user.txt и pass.txt и запустила утилиту Hydra 
+
+Результат выполнения при выключенном fail2ban
+
+![alt text](img/stop_fail2.JPG)
+
+Результат выполнения при включенном fail2ban
+
+![alt text](img/start_fail2ban.JPG)
+
+Журнал событий
+Из скриншота видно, что адрес 192.168.111.20 заблокирован
+
+![alt text](img/auth.JPG)
+
+![alt text](img/ban.JPG)
