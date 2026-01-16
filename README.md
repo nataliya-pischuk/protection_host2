@@ -26,6 +26,22 @@ sudo nmap -sV < ip-адрес >
 Kali 192.168.111.20 и Ubuntu 192.168.111.15
 
 Suricata сработал везде, кроме первого запроса -sA. В остальных же случаях лог Suricata выдает, что происходило подозрительное скарирование и классификация идет как "Потенциально опасный трафик" и "Возможна утечка информации".
+#### sudo nmap -sA 192.168.111.15
+![alt text](img/sA.JPG)
 
+#### sudo nmap -sT 192.168.111.15
+![alt text](img/sT.JPG)
+
+#### sudo nmap -sS 192.168.111.15
+![alt text](img/sS.JPG)
+
+#### sudo nmap -sV 192.168.111.15
+![alt text](img/sV.JPG)
+
+![alt text](img/suricata_log.JPG)
 
 Fail2Ban во всех случаях не реагировал
+
+![alt text](img/fail2ban.JPG)
+
+![alt text](img/fail2ban._log.JPG)
